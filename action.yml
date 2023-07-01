@@ -1,6 +1,9 @@
 # action.yml
 name: 'Run Container'
 description: 'Run a command in a new container'
+branding:
+  icon: 'play'
+  color: 'red'
 inputs:
   image:
     description: 'Image'
