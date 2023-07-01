@@ -30,4 +30,4 @@ inputs:
     required: false
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ghcr.io/oxidfabian/docker-run-action:latest'
